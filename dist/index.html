@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav
+        class="navbar w-[740px] flex justify-between md:justify-around md:border md:w-[1050px] lg:w-[1228px] xl:w-[1350px] 2xl:border-white md:gap-44 2xl:w-[1600px]">
+        <div class="logo p-4">
+            <img class="whitespace-nowrap" src="./assets/logo.png" alt="">
+        </div>
+        <div class="item w-0 h-0 md:w-fit md:h-fit invisible md:visible md:mt-6">
+            <ul class="navitem w-0 h-0 md:w-fit md:h-fit flex gap-14 lg:gap-20 md:mr-10">
+                <li class="hover:cursor-pointer hover:text-blue-700 hover:font-bold">PRODUCTS</li>
+                <li class="hover:cursor-pointer hover:text-blue-700 hover:font-bold">GALLERY</li>
+                <li class="hover:cursor-pointer hover:text-blue-700 hover:font-bold">CONTACT</li>
+            </ul>
+        </div>
+        <div class="hemburgur order-last mt-6 mr-5 md:hidden">
+            <div class="bg-black mb-1 w-4 h-0.5"></div>
+            <div class="bg-black mb-1 w-4 h-0.5"></div>
+            <div class="bg-black mb-1 w-4 h-0.5"></div>
+        </div>
+        <div class="navbtn flex gap-2 invisible md:visible md:mt-4">
+            <div
+                class="bg-[#f2f2f2] w-28 flex justify-center items-center h-12 rounded-lg hover:cursor-pointer hover:bg-blue-500 hover:ease-in  hover:duration-300">
+                LOG IN</div>
+            <div
+                class="bg-[#434145] w-28 text-white flex justify-center items-center h-12 rounded-lg hover:cursor-pointer hover:bg-green-700 hover:ease-in  hover:duration-300">
+                SIGN UP</div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- container start -->
+    <header class="container p-14 ml-4 md:-ml-4 md:flex 2xl:ml-36">
+        <div class="left">
+            <div class="heading w-[270px] h-56 border-b-4 border-b-black text-8xl md:text-7xl whitespace-nowrap">
+                <h1 class="text-gray-600">LET'S RIDE </h1>
+                <span class="text-gray-700 font-bold">THE FUTURE.</span>
+            </div>
+            <div class="para whitespace-nowrap mt-10 text-3xl md:text-xl">
+                <p>Simple and sleek design with users <br> in mind.</p>
+            </div>
+            <div class="downpara flex gap-10 mt-14 ">
+                <div class="arr flex gap-5 whitespace-nowrap">
+                    <div class="bg-black w-14 h-14 flex justify-center items-center"><i
+                            class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i></div>
+                    <h2 class="mt-3 font-bold text-2xl md:text-xl">Buy now</h2>
+                </div>
+                <div class="vid flex whitespace-nowrap gap-5 -mt-3">
+                    <p class="font-semibold text-xl">Watch our <br> video how <br> it works</p>
+                    <img src="./assets/header play button.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right w-[600px] md:relative md:left-20 lg:relative lg:left-36">
+            <div class="topimg md:w-[600px] lg:w-[700px] lg:-mt-6">
+                <img src="./assets/header image.png" alt="">
+            </div>
+            <div class="downimg flex gap-5 justify-center items-center md:ml-40 lg:ml-[400px]">
+                <img src="./assets/01.png" alt="">
+                <div class="slide flex justify-center items-center w-28 h-12 border border-black rounded-full gap-5">
+                    <img class="w-4 ml-2"
+                        src="https://cdn0.iconfinder.com/data/icons/leading-international-corporate-website-app-collec/16/Slider_arrow_left-512.png"
+                        alt="">
+                    <div class=" w-11 lg:w-16 ml-1 h-12 border-l-[1px] border-l-black"><img
+                            class="w-5 float-right mt-[14px]" src="http://cdn.onlinewebfonts.com/svg/img_98761.svg"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- container end -->
+
+    <!-- bikedetails start -->
+    <div class="bikedetails flex gap-10 ml-9 pb-5 md:w-[1000px] lg:w-[1170px] xl:w-[1300px] 2xl:w-[1500px] ">
+        <div
+            class="one bg-[#f2f2f2] w-72 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-red-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">105
+                <sub>lbs</sub></span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Net Weight</p>
+            </div>
+        </div>
+        <div
+            class="one bg-[#f2f2f2] w-72 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-blue-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">26<sub>mph</sub></span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Top Speed</p>
+            </div>
+        </div>
+        <div
+            class="one bg-[#f2f2f2] w-72 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-green-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">38<sub>miles</sub></span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Max Range</p>
+            </div>
+        </div>
+        <div
+            class="one bg-[#f2f2f2] w-72 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-violet-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">89<sub>nm</sub></span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Max Torques</p>
+            </div>
+        </div>
+        <div
+            class="one bg-[#f2f2f2] w-72 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-yellow-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">22%<sub>slope</sub></span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Hill Climbing</p>
+            </div>
+        </div>
+        <div
+            class="six bg-[#f2f2f2] w-72 mr-2 md:w-[400px] md:h-[80px] lg:h-[110px] rounded-lg hover:bg-sky-700 hover:cursor-pointer hover:text-white">
+            <span
+                class="text-2xl font-bold whitespace-nowrap flex justify-center items-center gap-2 md:mt-3 lg:text-4xl lg:mt-5">2X</span>
+            <div class="net">
+                <p class="whitespace-nowrap text-xs flex justify-center items-center lg:mt-4">Hydralic Disc Brakes</p>
+            </div>
+        </div>
+    </div>
+    <!-- bikedetails end -->
+
+    <!-- Product Information start -->
+    <section class="productinfo mt-14 pb-10 md:w-[1000px] lg:w-[1200px]">
+        <div class="upinfo ml-[130px] md:ml-[230px] lg:ml-[330px] xl:ml-[400px] 2xl:ml-[500px]">
+            <h1 class="text-5xl font-bold whitespace-nowrap md:text-6xl xl:text-7xl">Product Information</h1>
+            <div class="infopara">
+                <p class="whitespace-nowrap mt-6 text-lg lg:text-2xl">Our Scooter has following unique design and
+                    technology features:</p>
+            </div>
+        </div>
+        <div
+            class="downinfo flex justify-center items-center mt-10 w-[690px] -ml-3 md:w-[1000px] lg:w-[1200px] xl:w-[1300px] 2xl:w-[1500px]">
+            <div class="imginfo">
+                <img class="h-[500px] md:w-[700px] lg:h-[600px] lg:-ml-[20px]"
+                    src="./assets/product information image.png" alt="">
+            </div>
+            <div class="rightinfo lg:ml-[100px] xl:ml-[200px] 2xl:ml-[300px]">
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Lightweight aircraft grade aluminium frame</p>
+                </div>
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Car grade lithium battery</p>
+                </div>
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Self-balanced</p>
+                </div>
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Plug and play</p>
+                </div>
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Quick release adapter</p>
+                </div>
+                <div class="information flex gap-1 pb-2 lg:pb-5">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">RFID Key card</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Information end -->
+
+    <!-- High Efficiency Motor start -->
+    <section class="Motor w-[700px] ml-4 md:w-[1000px] lg:w-[1200px] xl:w-[1320px] 2xl:w-[1400px] 2xl:ml-28">
+        <div class="highmotor">
+            <img src="./assets/high efficiency motor.png" alt="high efficiency motor">
+        </div>
+    </section>
+    <!-- High Efficiency Motor end -->
+
+    <!-- Multiple accessories start -->
+    <section class="accessories mt-14 pb-10 md:w-[1000px] lg:w-[1200px]">
+        <div class="topaccessories ml-[130px] md:ml-[230px] lg:ml-[330px] xl:ml-[400px] 2xl:ml-[500px]">
+            <h1 class="text-5xl font-bold whitespace-nowrap md:text-6xl xl:text-7xl">Multiple Accessories</h1>
+            <div class="paraaccessories">
+                <p class="whitespace-nowrap mt-6 text-lg lg:text-2xl">There are multiple modes of scooter for your
+                    multiple needs.</p>
+            </div>
+        </div>
+        <div
+            class="downaccessories flex justify-center items-center mt-10 w-[730px] -ml-3 md:h-[400px] md:w-[1000px] lg:w-[1200px] lg:mt-[80px] xl:w-[1300px] 2xl:w-[1590px]">
+            <div class="left md:h-[400px] md:mt-20">
+                <h1 class="ml-[50px] text-4xl font-bold whitespace-nowrap pb-7 lg:text-6xl">Golf Bag Rock</h1>
+                <div class="pleft ml-[50px] lg:text-2xl">
+                    <div class="material flex gap-1 pb-5 lg:pb-8">
+                        <img src="./assets/Icon.png" alt="Icon">
+                        <p class="whitespace-nowrap mt-2">Material : Aluminium alloy</p>
+                    </div>
+                    <div class="color flex gap-1 pb-5 lg:pb-8">
+                        <img src="./assets/Icon.png" alt="Icon">
+                        <p class="whitespace-nowrap mt-2">Color : Black</p>
+                    </div>
+                    <div class="Capacity flex gap-1 pb-5 lg:pb-8">
+                        <img src="./assets/Icon.png" alt="Icon">
+                        <p class="whitespace-nowrap mt-2">Capacity : 45lbs</p>
+                    </div>
+                    <div class="Ease flex gap-1 pb-5 lg:pb-8">
+                        <img src="./assets/Icon.png" alt="Icon">
+                        <p class="whitespace-nowrap mt-2">Ease : Steady & adjustable</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img class="h-[320px] md:w-[700px] md:h-[400px] md:ml-16 md:mt-8 lg:h-[500px]"
+                    src="./assets/golf bag rock.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Multiple accessories end -->
+
+    <!-- Shoping rack start -->
+    <section
+        class="shoping flex mt-10 w-[700px] md:w-[1000px] lg:w-[1200px] lg:mt-20 xl:w-[1300px] 2xl:w-[1450px] 2xl:ml-[100px]">
+        <div class="leftshop">
+            <img class="w-[600px] h-[360px]" src="./assets/shopping rack.png" alt="shoping">
+        </div>
+        <div class="rightshop md:ml-[100px] xl:ml-[200px] 2xl:ml-[300px]">
+            <h1 class="ml-[30px] text-4xl font-bold whitespace-nowrap pb-7 lg:text-6xl">Shopping Rack</h1>
+            <div class="parashop ml-6">
+                <div class="material flex gap-1 pb-5 lg:pb-6">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Material : Aluminium alloy</p>
+                </div>
+                <div class="color flex gap-1 pb-5 lg:pb-6">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Color : Black</p>
+                </div>
+                <div class="Capacity flex gap-1 pb-5 lg:pb-6">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Capacity : 45lbs</p>
+                </div>
+                <div class="Ease flex gap-1 pb-5 lg:pb-6">
+                    <img src="./assets/Icon.png" alt="Icon">
+                    <p class="whitespace-nowrap mt-2">Ease : Quick & adjustable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shoping rack end -->
+
+    <!-- More accessories start -->
+    <div class="moreaccessories w-full mt-6 text-3xl lg:text-4xl font-bold pb-8">
+        <p
+            class="w-[550px] h-[90px] rounded-xl ml-24 md:ml-[285px] lg:ml-[330px] xl:ml-[400px] 2xl:ml-[500px] lg:w-[600px] lg:h-[105px] flex justify-center items-center border-2 border-black whitespace-nowrap hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:cursor-pointer">
+            More Accessories Coming Soon</p>
+    </div>
+    <!-- More accessories end -->
+
+    <!-- Gallery start -->
+    <section class="gallery mt-10 w-[707px] pb-12 md:w-[1000px] lg:w-[1190px] xl:w-[1300px] 2xl:ml-[140px]">
+        <div class="topgallery ml-28 pb-8">
+            <h1 class="text-5xl font-bold whitespace-nowrap text-center -ml-10 lg:text-6xl">Gallery</h1>
+            <div class="paragallery whitespace-nowrap mt-5 md:ml-[150px] lg:ml-[250px] xl:ml-[310px]">
+                <p>View gallery of our products and make yourself satisfied with our creation.</p>
+            </div>
+        </div>
+        <div class="downgallery1 flex ml-10 gap-8">
+            <div class="scooter mt-10 lg:mt-20">
+                <h1 class="bg-gradient-to-r from-[#f2f2f2] to-slate-50 text-2xl font-bold ">Scooter</h1>
+                <img src="./assets/gallery scooter.png" alt="scooter">
+            </div>
+            <div class="built">
+                <h1 class="bg-gradient-to-r from-slate-50 to-[#f2f2f2] text-2xl font-bold ">Built Quality</h1>
+                <img src="./assets/gallery built quality.png" alt="built">
+            </div>
+        </div>
+        <div class="downgallery2 flex gap-12 ml-10">
+            <div class="battery text-2xl md:text-3xl font-bold w-[550px] mt-11 lg:mt-24 space-y-5 md:space-y-8">
+                <div
+                    class="battery border-2 border-black whitespace-nowrap flex justify-center items-center h-16 md:h-[100px] rounded-xl hover:bg-gradient-to-r from-sky-500 to-indigo-500  hover:cursor-pointer">
+                    Battery Images</div>
+                <div
+                    class="spare border-2 border-black whitespace-nowrap flex justify-center items-center h-16 md:h-[100px] rounded-xl hover:bg-gradient-to-r from-violet-500 to-fuchsia-500  hover:cursor-pointer">
+                    Spare Parts Images</div>
+                <div
+                    class="charging border-2 border-black whitespace-nowrap flex justify-center items-center h-16 md:h-[100px] rounded-xl hover:bg-gradient-to-r from-cyan-500 to-green-600  hover:cursor-pointer">
+                    Charging Cable Images</div>
+            </div>
+            <div class="Parts xl:ml-[100px] xl:-mt-8">
+                <h1 class="bg-slate-50 relative top-[30px] text-2xl font-bold">Parts</h1>
+                <img src="./assets/gallery parts.png" alt="parts">
+            </div>
+        </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Colors start -->
+    <section class="color mt-10 w-[737px] md:w-[1050px] lg:w-[1230px] xl:w-[1350px] 2xl:w-[1590px] pb-12 ">
+        <div class="upcolor pb-8">
+            <h1 class="text-5xl font-bold whitespace-nowrap text-center -ml-10 lg:text-6xl">Colors</h1>
+            <div class="paracolor whitespace-nowrap mt-5 text-center">
+                <p>Checkout our products colors.</p>
+            </div>
+        </div>
+        <div class="downcolor">
+            <div class="upimage">
+                <img class="w-[950px] md:w-[1300px] lg:w-[1350px] 2xl:w-[1600px]" src="./assets/gallery scooter.png"
+                    alt="gallery">
+            </div>
+            <div class="downimage flex">
+                <img class="w-[300px] h-[200px] lg:h-[350px] lg:w-[340px] relative -mt-20 lg:-mt-40"
+                    src="./assets/color-scooter-1.png" alt="color-scooter-1">
+                <img class="w-[300px] h-[200px] lg:h-[350px] lg:w-[340px] -ml-10 xl:ml-0 2xl:ml-[70px] relative -mt-20 lg:-mt-40"
+                    src="./assets/color-scooter-2.png" alt="color-scooter-2">
+                <img class="w-[300px] h-[200px] lg:h-[350px] lg:w-[340px] -ml-10 xl:ml-0 2xl:ml-[70px] relative -mt-20 lg:-mt-40"
+                    src="./assets/color-scooter-3.png" alt="color-scooter-3">
+                <img class="w-[300px] h-[200px] lg:h-[350px] lg:w-[340px] -ml-10 xl:ml-0 2xl:ml-[70px] relative -mt-20 lg:-mt-40"
+                    src="./assets/color-scooter-4.png" alt="color-scooter-4">
+            </div>
+            <div
+                class="downcounting flex justify-around relative -mt-[90px] lg:-mt-[130px] ml-[70px] lg:ml-[90px] text-gray-200">
+                <div class="one font-bold text-3xl lg:text-5xl 2xl:-ml-[40px]">01</div>
+                <div class="one font-bold text-3xl lg:text-5xl">02</div>
+                <div class="one font-bold text-3xl lg:text-5xl">03</div>
+                <div class="one font-bold text-3xl lg:text-5xl">04</div>
+            </div>
+        </div>
+    </section>
+    <!-- Colors end -->
+
+    <!-- Testimonials start -->
+    <section
+        class="testimonial mt-20 bg-gradient-to-r from-[#f2f2f2] to-slate-50 w-[737px] md:w-[1050px] lg:w-[1225px] xl:w-[1350px] 2xl:w-[1600px]  pb-12">
+        <div class="head pb-24">
+            <h1 class="text-5xl font-bold whitespace-nowrap text-center  relative top-12 lg:text-6xl">Testimonials</h1>
+        </div>
+        <div class="feedback flex flex-col justify-center items-center ml-4 gap-6 xl:gap-12 2xl:gap-32 md:flex-row">
+            <div
+                class="card1 w-[500px] h-[370px] md:w-[320px] bg-white rounded-2xl hover:bg-purple-600 hover:cursor-pointer">
+                <img class="w-[150px] ml-[150px] mt-10 pb-7 md:ml-[80px]"
+                    src="https://ultimatepc.in/wp-content/uploads/2020/12/Rating-4.5-star.png" alt="star">
+                <div class="paracard1 whitespace-nowrap flex justify-center items-center text-2xl md:text-xl">
+                    <p>On the other hand, we denounce <br> with righteous indignation and <br> dislike men who are so
+                        beguiled <br> and demoralized by the charms <br> of pleasure.</p>
+                </div>
+                <div class="photo flex justify-center items-center mt-8 gap-8">
+                    <img src="./assets/serhiy hipskyy.png" alt="serhiy">
+                    <div class="p whitespace-nowrap">
+                        <p>serhiy hipskyy</p>
+                        <span>CEO Universal</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="card2 w-[500px] h-[370px] md:w-[320px] bg-white rounded-2xl hover:bg-red-600 hover:cursor-pointer">
+                <img class="w-[150px] ml-[150px] mt-10 pb-7 md:ml-[80px]"
+                    src="https://ultimatepc.in/wp-content/uploads/2020/12/Rating-4.5-star.png" alt="star">
+                <div class="paracard1 whitespace-nowrap flex justify-center items-center text-2xl md:text-xl">
+                    <p>On the other hand, we denounce <br> with righteous indignation and <br> dislike men who are so
+                        beguiled <br> and demoralized by the charms <br> of pleasure.</p>
+                </div>
+                <div class="photo flex justify-center items-center mt-8 gap-8">
+                    <img src="./assets/Justus Menke.png" alt="Justus">
+                    <div class="p whitespace-nowrap">
+                        <p>Justus Menke</p>
+                        <span>CEO Eronaman</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="card3 w-[500px] h-[370px] md:w-[320px] bg-white rounded-2xl hover:bg-blue-600 hover:cursor-pointer">
+                <img class="w-[150px] ml-[150px] mt-10 pb-7 md:ml-[80px]"
+                    src="https://ultimatepc.in/wp-content/uploads/2020/12/Rating-4.5-star.png" alt="star">
+                <div class="paracard1 whitespace-nowrap flex justify-center items-center text-2xl md:text-xl">
+                    <p>On the other hand, we denounce <br> with righteous indignation and <br> dislike men who are so
+                        beguiled <br> and demoralized by the charms <br> of pleasure.</p>
+                </div>
+                <div class="photo flex justify-center items-center mt-8 gap-8">
+                    <img src="./assets/Britain Eriksen.png" alt="Britain">
+                    <div class="p whitespace-nowrap">
+                        <p>Britain Eriksen</p>
+                        <span>CEO Universal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arr flex justify-center items-center mt-10 gap-5">
+            <img class="w-[60px]" src="http://cdn.onlinewebfonts.com/svg/img_71224.png" alt="left">
+            <img class="w-[60px]" src="https://cdn.onlinewebfonts.com/svg/img_71261.png" alt="right">
+        </div>
+    </section>
+    <!-- Testimonials end -->
+
+    <!-- Subscribe start -->
+    <div
+        class="subscribe flex flex-col justify-center items-center w-[737px] mt-[70px] md:w-[1050px] lg:w-[1225px] xl:w-[1350px] 2xl:w-[1600px] pb-12">
+        <div class="up whitespace-nowrap">
+            <h1 class="text-5xl font-bold pb-4 lg:text-6xl">Subscribe To Newsletter</h1>
+            <p class="flex justify-center items-center lg:text-2xl">Subscribe to our newsletter to get amazing offers in
+                future.</p>
+        </div>
+        <div class="down flex justify-center items-center mt-10 gap-2 lg:text-2xl">
+            <input class="bg-[#f2f2f2] h-[40px] w-[200px] rounded-lg lg:w-[300px] lg:h-[60px]" type="email" id="email"
+                placeholder="   Enter Your Email">
+            <div
+                class="get w-[200px] bg-slate-700 text-white h-[40px] flex justify-center items-center hover:cursor-pointer hover:bg-blue-800 rounded-lg lg:w-[300px] lg:h-[60px]">
+                Get Start</div>
+        </div>
+    </div>
+    <!-- Subscribe end -->
+
+    <!-- footer start -->
+    <footer class="bg-[#413f3f] w-[740px] mt-28 md:w-[1050px] lg:w-[1228px] xl:w-[1350px] 2xl:w-[1600px]">
+        <div class="foot flex">
+            <div class="leftimg w-[350px] md:w-[600px] -mt-[55px]">
+                <img src="./assets/footer scooter.png" alt="footer">
+            </div>
+            <div
+                class="righttext flex justify-center items-center gap-8 md:gap-11 lg:gap-20 text-white md:ml-14 2xl:ml-[300px]">
+                <div class="about whitespace-nowrap">
+                    <h1 class="relative -top-5 md:pb-6 text-xl font-bold lg:text-2xl">About</h1>
+                    <ul class="space-y-2 md:space-y-5 lg:space-y-7 lg:text-lg">
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Company</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Teams</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Profile</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Careers</li>
+                    </ul>
+                </div>
+                <div class="resource whitespace-nowrap">
+                    <h1 class="relative -top-5 md:pb-6 text-xl font-bold lg:text-2xl">Resources</h1>
+                    <ul class="space-y-2 md:space-y-5 lg:space-y-7 lg:text-lg">
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Contact</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Application</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">FAQ</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Features</li>
+                    </ul>
+                </div>
+                <div class="legals whitespace-nowrap">
+                    <h1 class="relative -top-4 md:pb-6 text-xl font-bold lg:text-2xl lg:-top-6 lg:pb-4">Legals</h1>
+                    <ul class="space-y-2 md:space-y-5 lg:space-y-7 lg:text-lg">
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Copyright Privacy</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Policy Disclaimer</li>
+                        <li class="hover:text-gray-400 hover:cursor-pointer">Terms</li>
+                    </ul>
+                    <i class="fa-brands fa-facebook fa-xl mt-8 lg:mt-11 " style="color:white;"></i>
+                    <i class="fa-brands fa-instagram fa-xl mt-8 lg:mt-11 ml-2" style="color:white;"></i>
+                    <i class="fa-brands fa-twitter fa-xl mt-8 lg:mt-11 ml-2" style="color:white;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright flex justify-center items-center text-white text-base pb-4 lg:text-xl">
+            <p>&copy; Copyright 2021. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
